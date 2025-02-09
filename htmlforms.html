@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <form action="thankyou.html" method="get" style=" text-align:center; border: 2px solid black ; padding:10px; margin:auto; width: 300px; ">
+
+        <h1>Student Registration</h1>
+        <label for="username">Username:</label>
+        <input type="text" name="username" placeholder="username"required> <br> <br>
+
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" placeholder="your password"required> <br> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="your email"required> <br> <br>
+         
+        <p>Select your gender:</p>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="male"> <br> 
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="female"> <br> 
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other"> <br> 
+
+        <label for="age-group">Select your age-group</label>
+        <select name="age-group-values" id="age group">
+           <option value="5-10">5-10</option>
+           <option value="11-21">11-21</option>
+           <option value="21-50">21-50</option>
+           <option value="50 & above">50-above</option>
+        </select> <br> <br>
+
+         <label for="">Select Date:</label>
+         <input type="date" id="date"> <br> <br>
+
+
+         <label for="course">Select your course:</label>
+         <select name="course values" id="course">
+            <option value="Btech">Btech</option>
+            <option value="B.Sc">B.Sc</option>
+            <option value="BCA">BCA</option>
+         </select> <br> <br>
+
+
+         <label for="section">Select Section:</label>
+         <select name="section values" id="section">
+            <option value="CSE 1">CSE 1</option>
+            <option value="CSE 2">CSE 2</option>
+            <option value="CSE 3">CSE 3</option>
+            <option value="CSE 4">CSE 4</option>
+            <option value="CSE 5">CSE 5</option>
+            <option value="CSE 6">CSE 6</option>
+         </select> <br> <br> <br>
+
+
+
+        <input type="Submit" value="Submit" style="font-size: 18px; padding: 10px 20px;">
+
+    </form>
+</body>
+</html>
